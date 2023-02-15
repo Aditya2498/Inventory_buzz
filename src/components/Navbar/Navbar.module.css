@@ -1,0 +1,7 @@
+.navcontainer{display: flex;justify-content: space-between;align-items: center;background-color: black; padding: 10px 15px; border-radius: 5px;}
+.nav_links{display: flex;flex: 1;list-style: none;}
+.nav_links li a{color:white;margin: 0px 10px; font-size: 18px;text-decoration: none;}
+.nav_links li a:hover{text-decoration: underline;color:#fdd005}
+@media (max-width:1024px) {
+    .nav_links{display: none;}
+}
